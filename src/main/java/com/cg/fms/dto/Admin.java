@@ -32,7 +32,7 @@ public class Admin {
 	@OneToMany(mappedBy = "admin")
 	private Set<Customer> customer;
 	
-	private int number;
+	
 
 	
 	
